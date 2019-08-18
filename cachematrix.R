@@ -20,6 +20,7 @@ cacheSolve <- function(x, ...) {
   inver <- x$getinvr()
   if(!is.null(inver)){
     print("LOL")
+    print("Already obtained inverse, retrieving...")
     return(inver)
   }
   matr <- x$mat_obj()
